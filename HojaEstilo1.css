@@ -1,0 +1,153 @@
+/* Estilo <header>, el cual incluye logo y barra de navegación 
+Posicionamiento del logo de página y barra de navegación
+Se aplicaron estilos personales
+Se aplicaron tamaño y tipo de fuente Calibri 15px
+*/
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right, #f3dcfb, #679fe4);
+    box-shadow: 3px 3px 3px rgba(159, 159, 159, 0.503);
+    
+ }
+
+
+.divLogo {
+    margin: 0;
+    display: inline;
+    position: fixed;
+    height: 0;
+
+ }
+
+ ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+
+  }
+
+
+.divMenu ul{
+    font-family: Calibri;
+    list-style-type: none;
+ }
+
+.divMenu li{
+    color: #666;
+    display: inline;
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+ }
+
+.divMenu li a {
+    display: block;
+    color:#2a4667;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+
+.divMenu li a:hover{
+    background-color: #3176ca;
+    color: #ffffff;
+    width: max-content;
+
+ }
+
+ /* Estilo a <article>, el cual contiene los títulos h1, h2 y h3 
+Posicionamiento centrado
+Se aplicaron estilos personales
+Se aplicaron tamaño y tipo de fuente solicitada (Calibri 15px) a excepción del título h2 de la página inicio
+*/
+
+article{
+    font-family: Calibri;
+    font-size: 15px;
+    margin-top: 120px;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: 400px;
+ }
+
+
+article h1{
+    color: rgb(113, 113, 113);
+    font-size:x-large;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.145);
+    opacity: 0.5;
+    position: static;
+
+ }
+
+article h2{
+    font-size: xx-large;
+    color:rgb(50, 50, 50);
+}
+
+#divName h2{
+    font-family: 'Ms Madi', cursive;
+    font-size: 38pt;
+
+
+ }
+
+ /* background página
+*/
+
+ html{
+    background-color:rgba(195, 170, 206, 0.049);
+}
+
+ /* Estilo a <body>, cada <p> tiene posicionamiento de texto centrado
+*/
+
+
+body p{
+    margin-top: 15px;
+ }
+
+ /* Estilo a class Column Features, el texto se dividió en 2 columnas
+*/
+
+#divColumnFeatures{
+    column-count:2;
+    column-gap:20px;
+    column-rule:1px dashed rgb(15, 114, 114);
+    list-style: none;
+    text-align:center;
+    font-family: Calibri;
+ }
+
+  /* Estilo a class Proyect, alineación centrada de elementos contenidos en <p>
+*/
+
+ #divProyect p{
+    padding: 35px;
+    border-bottom: 3px solid rgb(203, 213, 213);
+    text-align: center;
+ }
+
+ /* Estilo a <footer>, alineación de texto a la izquierda de elementos contenidos
+Se aplicaron estilos personales
+Se aplicaron tipo de fuente según lo solicitado
+*/
+
+footer {
+    font-family: Calibri;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.458);
+    margin-left: 80px;
+    text-align: left;
+    font-size: small;
+
+  }
+ 
+ 
